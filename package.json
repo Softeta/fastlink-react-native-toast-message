@@ -1,5 +1,5 @@
 {
-  "name": "react-native-toast-message",
+  "name": "fastlink-react-native-toast-message",
   "version": "2.1.5",
   "description": "Toast message component for React Native",
   "main": "./lib/index.js",
@@ -9,23 +9,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/calintamas/react-native-toast-message.git"
+    "url": "git+https://github.com/Softeta/fastlink-react-native-toast-message.git"
   },
   "keywords": [
     "react-native",
     "toast"
   ],
-  "scripts": {
-    "prepare": "husky install",
-    "build": "rm -rf ./lib && tsc",
-    "prettier": "./node_modules/.bin/prettier --write",
-    "lint": "./node_modules/.bin/eslint --fix",
-    "lint-staged": "./node_modules/.bin/lint-staged",
-    "test": "./node_modules/.bin/jest",
-    "yalc:push": "yarn build && yalc publish --push",
-    "quality": "yarn lint && tsc --noEmit"
-  },
-  "author": "Calin Tamas <calintamas2@gmail.com>",
+  "author": "Stepas Dev <stepas.apple@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.8",
