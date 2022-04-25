@@ -19,6 +19,7 @@ export type ToastUIProps = {
   show: (params: ToastShowParams) => void;
   hide: (params: ToastHideParams) => void;
   config?: ToastConfig;
+  swipeEnabled?: boolean;
 };
 
 const defaultToastConfig: ToastConfig = {
@@ -64,7 +65,7 @@ function renderComponent({
 }
 
 export function ToastUI(props: ToastUIProps) {
-  const { isVisible, options, hide } = props;
+  const { isVisible, options, hide, swipeEnabled = true } = props;
   const { position, topOffset, bottomOffset, keyboardOffset } = options;
 
   return (

@@ -184,4 +184,5 @@ export type ToastProps = {
    * Called on any Toast press
    */
   onPress?: () => void;
+  swipeEnabled?: boolean;
 };
