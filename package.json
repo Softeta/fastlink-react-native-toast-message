@@ -17,11 +17,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "build": "rm -rf ./lib && tsc",
-    "prettier": "./node_modules/.bin/prettier --write",
-    "lint": "./node_modules/.bin/eslint --fix",
-    "lint-staged": "./node_modules/.bin/lint-staged",
-    "test": "./node_modules/.bin/jest"
+    "build": "rm -rf ./lib && tsc"
   },
   "author": "Stepas Dev <stepas.apple@gmail.com>",
   "license": "MIT",
@@ -53,9 +49,5 @@
       "style": "module",
       "parser": "typescript"
     }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,md}": "yarn prettier",
-    "*.{js,jsx,ts,tsx}": "yarn lint"
   }
 }
