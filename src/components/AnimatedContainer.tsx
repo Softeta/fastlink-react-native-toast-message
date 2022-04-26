@@ -75,7 +75,7 @@ export function AnimatedContainer({
   bottomOffset,
   keyboardOffset,
   onHide,
-  onRestorePosition = noop
+  onRestorePosition = noop,
   swipeEnabled = true,
 }: AnimatedContainerProps) {
   const { log } = useLogger();

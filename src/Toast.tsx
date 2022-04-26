@@ -11,7 +11,7 @@ import {
 import { useToast } from './useToast';
 
 const ToastRoot = React.forwardRef((props: ToastProps, ref) => {
-  const { config, ...defaultOptions, swipeEnabled } = props;
+  const { config, swipeEnabled, ...defaultOptions } = props;
   const { show, hide, isVisible, options, data } = useToast({
     defaultOptions
   });
