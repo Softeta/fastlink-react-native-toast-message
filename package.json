@@ -21,9 +21,7 @@
     "prettier": "./node_modules/.bin/prettier --write",
     "lint": "./node_modules/.bin/eslint --fix",
     "lint-staged": "./node_modules/.bin/lint-staged",
-    "test": "./node_modules/.bin/jest",
-    "yalc:push": "yarn build && yalc publish --push",
-    "quality": "yarn lint && tsc --noEmit"
+    "test": "./node_modules/.bin/jest"
   },
   "author": "Stepas Dev <stepas.apple@gmail.com>",
   "license": "MIT",
