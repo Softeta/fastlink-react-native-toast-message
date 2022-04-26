@@ -67,6 +67,10 @@ export type ToastOptions = {
    */
   onPress?: () => void;
   /**
+   * Enable or disable swipe gesture
+   */
+  swipeEnabled?: boolean;
+  /**
    * Any custom props passed to the specified Toast type.
    * Has effect only when there is a custom Toast type (configured via the `config` prop
    * on the Toast instance) that uses the `props` parameter

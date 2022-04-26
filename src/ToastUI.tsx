@@ -75,6 +75,7 @@ export function ToastUI(props: ToastUIProps) {
       topOffset={topOffset}
       bottomOffset={bottomOffset}
       keyboardOffset={keyboardOffset}
+      swipeEnabled={swipeEnabled}
       onHide={hide}>
       {renderComponent(props)}
     </AnimatedContainer>
