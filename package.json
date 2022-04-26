@@ -2,8 +2,7 @@
   "name": "@fastlink/react-native-toast-message",
   "version": "2.1.5",
   "description": "Toast message component for React Native",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "index.ts",
   "files": [
     "/lib"
   ],
@@ -15,10 +14,6 @@
     "react-native",
     "toast"
   ],
-  "scripts": {
-    "prepare": "husky install",
-    "build": "rm -rf ./lib && tsc"
-  },
   "author": "Stepas Dev <stepas.apple@gmail.com>",
   "license": "MIT",
   "devDependencies": {
